@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Deploy AI employees that work 24/7 for your business"
+	subtitle="Handle customer service, scheduling, and administrative tasks autonomously. Perfect for small business owners who need reliable support without the overhead."
+	imageSrc="/generated/image-a-confident-small-business-owner-in-a-mo.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by growing businesses"
+	logoUrls={[
+		'https://cdn.brandfetch.io/hubspot.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/mailchimp.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/freshworks.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/intercom.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
